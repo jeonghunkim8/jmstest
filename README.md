@@ -8,7 +8,7 @@ spring.activemq.broker-url=<url>
 spring.activemq.user=<username>
 spring.activemq.password=<password>
 ```
-- add this to vm option
+- add this to vm option(http://activemq.apache.org/objectmessage.html)
 ```
 -Dorg.apache.activemq.SERIALIZABLE_PACKAGES="com.kurly.jmstest"
 ```
